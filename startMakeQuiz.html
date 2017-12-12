@@ -1,0 +1,39 @@
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<form id="formCont">
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="questions">
+				<ul><span>Number of questions:</span><input type="text"></span></ul>
+				<ul><span>Category:
+					<select>
+						  <option value="volvo">Math</option>
+						  <option value="saab">Geography</option>
+						  <option value="opel">Science</option>
+						  <option value="audi">English</option>
+					</select>
+				</span></ul>
+				<ul><span><input type="text"></span></ul>
+			</div>
+		</div>
+	</div>
+	<input type="submit" class="submitter">
+	<button class="btn btn-success" id="submit">Next</button>
+</form>
+</body>
+</html>
+<script src="js/jquery-3.1.0.min.js"></script>
+<script>
+$(document).ready(function(){
+	$(".submitter").hide();
+	$("#submit").on('click',function(){
+		$("#formCont").submit();
+	});
+});
+</script>
