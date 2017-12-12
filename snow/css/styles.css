@@ -1,0 +1,33 @@
+
+/**********headers*****************/
+
+.reviewQHeader{
+  background-attachment:fixed;
+  background-size:auto;
+  width:auto;
+  height:auto;
+}
+
+.makequizheader{
+  background: #ffffff;
+}
+
+/*********************************/
+.answer{
+     padding-left: 6%;
+}
+
+.answer{
+padding-left: 6%;
+}
+input{
+  color: black;
+  background-color:white; 
+  border: solid 1px #6E6E6E;
+  width: 80%;
+  height: 30px; 
+  font-size:18px; 
+  vertical-align:9px 
+}
+
+

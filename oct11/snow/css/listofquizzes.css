@@ -1,0 +1,84 @@
+.textbody{
+	background-color:rgb(112,203,206);
+	background-size:auto;
+	width:auto;
+	height:auto;
+	padding-top:30px;
+	position:relative;
+	min-width:100%;
+	min-height:100%;
+}
+
+.navheadr{
+	color:black !important;
+}
+
+footer{
+	padding-top:0;
+}
+
+.quizzess{
+	margin-bottom:5%;
+}
+
+.fa-flask{
+	font-size:10em;
+	padding-left:20%;
+	padding-top:15%;
+	color: #BF5FFF;
+
+}
+
+.fa-calculator{
+	font-size:10em;
+	padding-left:20%;
+	padding-top:15%;
+	color:#FF7722;
+}
+
+.fa-graduation-cap{
+	font-size:10em;
+	padding-left:10%;
+	padding-top:17%;
+}
+
+.englishspan{
+	padding-left:11px;
+	font-size:6.5em;
+	margin-top:20%;
+	
+}
+
+.aspan{
+	color:red;
+	font-family:Crumble;
+}
+
+.bspan{
+	color:blue;
+	font-family:Crumble;
+}
+
+.cspan{
+	color:green;
+	font-family:Crumble;
+}
+
+.backdrop{
+	background-color: #AEEEEE;
+}
+
+.fa-cog{
+	font-size:20em;
+	margin-top:12.5%;
+	margin-left:40%;
+}
+
+.read-more{
+	float:right;
+}
+
+.itemsss,.categoryyy{
+	color:gray;
+	font-size:2em;
+}

@@ -1,0 +1,54 @@
+body{
+  background: url(../img/bkgdChild.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+.quizformheader{
+  background:none;
+    height:20%;
+}
+.sectionquiz{
+	padding-top:50px;
+
+}
+.containerquiz{
+  background-color: rgba(255,255,255,0.5) !important;
+	display:block;
+  padding:3.5%;
+  border-radius:100px;
+}
+p{
+  color:black;
+}
+footer{
+  margin-top:10.5%;
+}
+
+#submit{
+  float:right;
+  margin-top:20px;
+}
+label {
+  margin-bottom:20px;
+}
+
+.form-control{
+  position:relative;
+  display:block;
+  height: 6.5%;
+  width:50%;
+  margin-left:25%;
+}
+
+.slct {
+  width:15%;
+  margin-left:42%;
+}
+
+.slctnum {
+  width:8% ;
+  margin-left: 46%;
+}

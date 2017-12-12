@@ -1,0 +1,38 @@
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class="what">
+	<p class="weee">wahasdkjsdh</p>
+</div>
+<form id="formCont">
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="questions">
+				<span>Question 1:</span><input type="text">
+				<div class="answer">
+					<ul class="choices"><span>A:</span><input type="text"></ul>
+					<ul class="choices"><span>B:</span><input type="text"></ul>
+					<ul class="choices"><span>C:</span><input type="text"></ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<input type="submit" class="submitter">
+	<button class="btn btn-success" id="submit">Next</button>
+</form>
+</body>
+</html>
+<script src="js/jquery-3.1.0.min.js"></script>
+<script>
+$(document).ready(function(){
+	$(".weee").hide();
+	$(".submitter").hide();
+	$("#submit").on('click',function(){
+		$("#formCont").submit();
+	});
+});
+</script>

@@ -1,0 +1,61 @@
+
+/**********headers*****************/
+
+.reviewQHeader{
+  background-attachment:fixed;
+  background-size:auto;
+  width:auto;
+  height:auto;
+}
+
+.makequizheader{
+  background: #ffffff;
+}
+
+/*********************************/
+.answer{
+     padding-left: 6%;
+}
+input{
+  color: black;
+  background-color:white; 
+  border: solid 1px #6E6E6E;
+  width: 80%;
+  height: 30px; 
+  font-size:18px; 
+  vertical-align:9px 
+}
+
+.alert {
+  display:none;
+}
+.alert-fixed {
+    position:fixed; 
+    top: 0px; 
+    left: 0px; 
+    width: 100%;
+    z-index:9999; 
+    border-radius:0px;
+}
+
+.alert-text{
+  font-size: 1.5em;
+}
+.closebtn{
+  font-size: 2em;
+  color:red;
+  opacity:0.7;
+}
+
+.fa-warn {
+  float:left;
+  margin-left:20px;
+  font-size:2.0em;
+}
+
+.placewarn {
+  color: #FF4500;
+  font-size:4em;
+  display:inline-block;
+  float:right;
+}

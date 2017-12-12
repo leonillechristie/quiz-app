@@ -1,0 +1,40 @@
+.makequizheader{
+  background-color: rgb(112,203,206) !important;
+}
+
+
+input{
+  color: black;
+  background-color:white; 
+  border: solid 1px #6E6E6E;
+  height: 30px; 
+  font-size:18px; 
+  vertical-align:9px 
+}
+.q-name {
+  display: block; 
+  text-align:center;
+  font-size: 4.0em;
+  color: white;
+
+}
+.qdesc {
+  background-color: white;
+  color:rgb(112,203,206);
+  text-align:center;
+  font-size: 3.5em;
+}
+.choices{
+  position:relative;
+  text-align:center !important;
+}
+.aqq{
+  background-color:white;
+  color:rgb(112,203,206);
+  text-align:center;
+  font-size:2.3em;  
+}
+.submits{
+  background-color: white;
+  color:rgb(112,203,206);
+}

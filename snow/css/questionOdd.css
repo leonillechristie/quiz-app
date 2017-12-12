@@ -1,0 +1,86 @@
+.makequizheader{
+  background: rgb(112,203,206) !important;
+  height:10px;
+  padding-bottom: 50px;
+
+}
+input{
+  color: black;
+  background-color:white; 
+  border: solid 1px #6E6E6E;
+  height: 30px; 
+  font-size:18px; 
+  vertical-align:9px 
+}
+.q-name {
+  display: block; 
+  text-align:center;
+  font-size: 4.0em;
+  color: rgb(112,203,206);
+
+}
+.qdesc {
+  background-color: rgb(112,203,206);
+  color:white;
+  text-align:center;
+  font-size: 3.5em;
+}
+.choices{
+  position:relative;
+  text-align:center !important;
+}
+.aqq{
+  background-color:rgb(112,203,206);
+  color:white;
+  text-align:center;
+  font-size:2.3em;  
+}
+
+.submits{
+  background-color: rgb(112,203,206);
+  color:white;
+}
+
+.qsec{
+  margin-top:20px;
+}
+.navbar-inverse{
+  background-color:#FF7216;
+}
+
+.aqq1::-webkit-input-placeholder {
+    color:    white !important;
+}
+.aqq1:-moz-placeholder {
+    color:    white !important;
+}
+.aqq1::-moz-placeholder {
+    color:    white !important;
+}
+.aqq1:-ms-input-placeholder {
+    color:    white !important;
+}
+.aqq1{
+  background-color: #93DB70;
+}
+.aqq2{
+  background-color: #F64D54;
+}
+.aqq3{
+  background-color: #F64D54;
+}
+.aqq4{
+  background-color: #F64D54;
+}
+.aqq{
+  width:65%;
+  position:relative;
+  display: inline-block;
+  margin-bottom:10px;
+}
+.submits{
+  margin-top:50px;
+}
+
+
+

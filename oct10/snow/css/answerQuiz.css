@@ -1,0 +1,28 @@
+.textbody{
+	background-color: rgb(112,203,206);
+	background-size:auto;
+	width:auto;
+	height:auto;
+	min-width:100%;
+	min-height:100%;
+}
+
+.quiztitle,.quizitems,.categoryquiz{
+	display:block;
+}
+
+.butstart {
+	margin-top:30%;
+}
+.answerqs{
+	margin-top:10%;
+
+}
+.questionLabel{
+	margin-bottom:30px;
+}
+.btn-default {
+	width:50%;
+	height:10%;
+	margin-bottom:15px;
+}

@@ -1,0 +1,79 @@
+.buttontodown:hover, .buttontodown:active{
+	cursor:pointer;
+	color: black;
+}
+
+.jumbotron{
+	border-radius:10px;
+	width:80%;
+	margin-left:10%;
+	margin-top:5%;
+}
+
+.panel-default{
+	width:80%;
+	margin-left:10%;
+	border-radius:10px !important;
+}
+.panel-default > .panel-heading{
+	background-color:rgb(112,203,206);
+	border-radius:10px;
+}
+
+.panel-default > .panel-heading > .panel-title{
+	font-size:2.3em;
+	padding-left:75px;
+	color:white;
+}
+
+.pbtext{
+	font-size: 1.6em !important;
+	color: gray;
+
+}
+
+.corrects {
+	font-size:2.1em !important;
+}
+
+.delBtn, .editBtn {
+	float:right;
+	margin-left:3px;
+}
+
+.question{
+	background-color:rgb(112,203,206);
+	text-align:center;
+	color:white;
+	font-size:2.7em;
+	width:80%;
+	margin-left:10%;
+}
+
+.rightAnswer,.wrongAnswer{
+	width: 60%;
+	margin-left:20%;
+	color:white;
+}
+
+.rightAnswer {
+	background-color: #93DB70;
+	margin-bottom:10px;
+}
+
+.wrongAnswer {
+	background-color: #F64D54;
+	margin-bottom:10px;
+}
+
+.loadgif{
+	float:left;
+	margin-left:50%;
+	font-size:2em;
+}
+
+.answ{
+	text-align:center;
+	font-size:1.6em;
+
+}
